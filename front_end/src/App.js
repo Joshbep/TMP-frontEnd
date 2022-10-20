@@ -241,7 +241,7 @@ class App extends Component {
       <div style={{ height: "100vh", width: "100vw"}}>
         <Map
             initialViewState={{ ...viewport }}
-            mapboxAccessToken={process.env.REACT_APP_MAPBOX}
+            mapboxAccessToken='pk.eyJ1Ijoiam9zaGJlcCIsImEiOiJjbDhjMGl6aHIwMmVkNDJwcGV0MHZqdTQ4In0.5dY3wpwiKLLYJa2cU3XbFA'
             width="100%"
             height="100%"
             transitionDuration="200"
