@@ -61,6 +61,7 @@ class Register extends Component {
         user:true
       })
     })
+    {<Navigate to ="/map" />}
   }
 
 
@@ -87,7 +88,7 @@ class Register extends Component {
     return (
 
       <div className="registerContainer">
-        {this.state.user && (<Navigate to ="/map" />)}
+        {this.state.user}
           <div className="logo">
             Travel Pins
           </div>
